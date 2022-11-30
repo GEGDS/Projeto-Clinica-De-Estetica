@@ -3,6 +3,7 @@
     --text-secondary: white;
     --bg-1: rgb(77, 47, 77);
     --bg-2: rgba(216, 162, 247, 0.904);
+    --bg-img: url(../Icons/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
 }
 
 *{
@@ -10,22 +11,15 @@
     padding: 0;
 }
 
-
 img {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
 }
 
 .home {
-    height: 4rem;
+    height: 6rem;
     width: 100vw;
     background-color: var(--bg-1);
-
     display: flex;
-    align-items: center;
     justify-content: flex-start;
-}
-
-.form-container {
-    background-color: var(--bg-2);
 }
